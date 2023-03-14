@@ -15,6 +15,8 @@
 		52A1437329C0FED800A6D1E1 /* amadeus_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1437229C0FED800A6D1E1 /* amadeus_appTests.swift */; };
 		52A1437D29C0FED800A6D1E1 /* amadeus_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1437C29C0FED800A6D1E1 /* amadeus_appUITests.swift */; };
 		52A1437F29C0FED800A6D1E1 /* amadeus_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1437E29C0FED800A6D1E1 /* amadeus_appUITestsLaunchTests.swift */; };
+		52A1438E29C105A400A6D1E1 /* CountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A1438C29C105A400A6D1E1 /* CountryTableViewCell.swift */; };
+		52A1438F29C105A400A6D1E1 /* CountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52A1438D29C105A400A6D1E1 /* CountryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		52A1437829C0FED800A6D1E1 /* amadeus_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = amadeus_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		52A1437C29C0FED800A6D1E1 /* amadeus_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amadeus_appUITests.swift; sourceTree = "<group>"; };
 		52A1437E29C0FED800A6D1E1 /* amadeus_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = amadeus_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		52A1438C29C105A400A6D1E1 /* CountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryTableViewCell.swift; sourceTree = "<group>"; };
+		52A1438D29C105A400A6D1E1 /* CountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		52A1435A29C0FED600A6D1E1 /* amadeus_app */ = {
 			isa = PBXGroup;
 			children = (
+				52A1438B29C1058500A6D1E1 /* XibWithClasses */,
 				52A1435B29C0FED600A6D1E1 /* AppDelegate.swift */,
 				52A1435F29C0FED600A6D1E1 /* ViewController.swift */,
 				52A1436129C0FED600A6D1E1 /* Main.storyboard */,
@@ -122,6 +127,15 @@
 				52A1437E29C0FED800A6D1E1 /* amadeus_appUITestsLaunchTests.swift */,
 			);
 			path = amadeus_appUITests;
+			sourceTree = "<group>";
+		};
+		52A1438B29C1058500A6D1E1 /* XibWithClasses */ = {
+			isa = PBXGroup;
+			children = (
+				52A1438C29C105A400A6D1E1 /* CountryTableViewCell.swift */,
+				52A1438D29C105A400A6D1E1 /* CountryTableViewCell.xib */,
+			);
+			path = XibWithClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,6 +242,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A1438F29C105A400A6D1E1 /* CountryTableViewCell.xib in Resources */,
 				52A1436829C0FED700A6D1E1 /* LaunchScreen.storyboard in Resources */,
 				52A1436529C0FED700A6D1E1 /* Assets.xcassets in Resources */,
 				52A1436329C0FED600A6D1E1 /* Main.storyboard in Resources */,
@@ -255,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				52A1438E29C105A400A6D1E1 /* CountryTableViewCell.swift in Sources */,
 				52A1436029C0FED600A6D1E1 /* ViewController.swift in Sources */,
 				52A1435C29C0FED600A6D1E1 /* AppDelegate.swift in Sources */,
 			);

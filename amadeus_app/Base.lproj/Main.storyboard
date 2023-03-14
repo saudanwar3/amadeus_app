@@ -50,6 +50,11 @@
                             <constraint firstItem="y4E-l8-EVy" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="34" id="mwO-p3-za6"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="headerView" destination="owA-Fv-G7H" id="D7Q-1V-5at"/>
+                        <outlet property="listTableView" destination="y4E-l8-EVy" id="zOR-ow-eSV"/>
+                        <outlet property="searchTxtField" destination="72B-a2-gQI" id="jf7-aE-cxY"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
