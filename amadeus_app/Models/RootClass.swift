@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct RootClass{
+struct RootClass:Decodable{
 
 	var data : [Data]!
 

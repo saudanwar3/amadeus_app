@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct Weather{
+struct Weather:Decodable{
 
 	var descriptionField : String!
 	var icon : String!

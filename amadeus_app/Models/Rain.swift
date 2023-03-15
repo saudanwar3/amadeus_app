@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct Rain{
+struct Rain:Decodable{
 
 	var rainHour : Float!
 

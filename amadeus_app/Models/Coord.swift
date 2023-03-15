@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct Coord{
+struct Coord:Decodable{
 
 	var lat : Float!
 	var lon : Float!

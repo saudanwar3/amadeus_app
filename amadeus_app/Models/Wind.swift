@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct Wind{
+struct Wind:Decodable{
 
 	var deg : Float!
 	var speed : Float!

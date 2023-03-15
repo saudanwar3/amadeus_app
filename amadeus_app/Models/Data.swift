@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct Data{
+struct Data:Decodable{
 
 	var city : City!
 	var clouds : Cloud!

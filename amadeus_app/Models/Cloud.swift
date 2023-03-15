@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct Cloud{
+struct Cloud:Decodable{
 
 	var all : Int!
 

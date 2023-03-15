@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct City{
+struct City:Decodable{
 
 	var coord : Coord!
 	var country : String!

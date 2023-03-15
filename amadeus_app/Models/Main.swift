@@ -4,7 +4,7 @@
 
 import Foundation
 
-struct Main{
+struct Main:Decodable{
 
 	var grndLevel : Float!
 	var humidity : Int!
